@@ -37,7 +37,7 @@ header{
     display: flex;
     display: grid;
     grid-template-columns: 88.3% 8%;
-    margin: 30px 33px 0;
+    padding: 30px 33px 0;
     gap: 46px;
 }
 
@@ -140,9 +140,9 @@ section.work_with_us > .work_between{
 }
 
 .orcamento{
-    background-color: #3f8120;
-    color: #fff;
-    border: none;
+    background-color: #fff;
+    color: #3f8120 ;
+    border: 1px solid #3f8120;
     border-radius: 70px;
     width: 213px;
     height: 50px;
@@ -151,19 +151,17 @@ section.work_with_us > .work_between{
 }
 
 .orcamento:hover{
-    background-color: #fff;
-    color: #3f8120 ;
-    border: 1px solid #3f8120;
-
+    background-color: #3f8120;
+    color: #fff;
 }
 
 .orcamento:hover a{
-    color: #3f8120 ;
+    color: #fff ;
 }
 
 .orcamento a{
     padding: 20px;
-    color:#fff;
+    color: #3f8120 ;
     font-weight: bold;
 }
 

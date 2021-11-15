@@ -7,42 +7,78 @@
     <link rel="stylesheet" href="../content/css/contato.css">
     <link rel="stylesheet" href="../content/css/main.css">
     <link rel="stylesheet" href="../content/css/home.css">
+    <link rel="stylesheet" href="../content/css/menu.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="shortcut icon" href="../content/Favicon.reverse verde.ico" />
     <title>Reverse - Contato</title>
 </head>
 
-<body>
-    <div class="validate" id="validate"></div>
-    <label for="check" id="toggle-menu" style="display:none">
-        <input type="checkbox" id="check"/> 
-        <span></span>
-        <span></span>
-        <span></span>
-      </label>
-      <header>
-        <div class="header" id="header">
+<body>    
+    <header class="header-mobile">
+        <a href="../index.html">
+            <figure><img width="198,498" height="42" src="../content/img/Logo.png" alt="logo"></figure>
+        </a>
+        <div class="menu-overlay"></div>
+        <a href="#" class="menu-open">
+            <div class="container">
+                <input type="checkbox" id="checkbox-menu">
+
+                <label for="checkbox-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+
+            </div>
+        </a>
+
+        <div class="side-menu-wrapper">
+            <div class="button">
+                <a href="#" class="menu-close">
+                    <div class="container-2">
+                        <input type="checkbox" id="checkbox-menu" checked>
+
+                        <label for="checkbox-menu">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </label>
+
+                    </div>
+                </a>
+            </div>
+            <ul>
+                <li><a href="../index.html" rel="nofollow">inicio</a></li>
+                <li><a href="../pages/ontime.html" rel="nofollow">projeto</a></li>
+                <li><a href="../pages/contato.html" rel="nofollow">contato</a></li>
+
+            </ul>
+        </div>
+    </header>
+    <header class="header-desk">
+        <div class="header">
             <nav>
                 <a href="../index.html">
-                    <figure><img width="198,498" height="42" loading="lazy" src="../content/img/Logo.png" alt="logo"></figure>
+                    <figure><img width="198,498" height="42" src="../content/img/Logo.png" alt="logo"></figure>
                 </a>
                 <div class="content">
                     <ul>
                         <li><a href="../index.html">inicio</a></li>
-                        <!-- <li><a href="./ontime.html">projeto</a></li>
-                        <li><a href="">sobre</a></li> -->
-                        <!-- <li><a href="../pages/contato.html">contato</a></li> -->
+                        <li><a href="../pages/ontime.html">projeto</a></li>
+                        <li><a href="../pages/contato.html">contato</a></li>
                     </ul>
+
                 </div>
             </nav>
             <div class="sociais">
                 <a target="_blank" href="https://www.instagram.com/ag_reverse/">
-                    <figure><img loading="lazy" src="../content/img/instagram.png" alt="instagram"></figure>
-                </a>
-                <a target="_blank" href="https://www.behance.net/BrunaDanieleGs?tracking_source=search_users_recommended%7Creverse">
-                    <figure><img loading="lazy" src="../content/img/facebook.png" alt="facebook"></figure>
+                    <figure><img src="../content/img/instagram.png" alt="instagram"></figure>
                 </a>
                 <a target="_blank" href="#">
-                    <figure><img loading="lazy" src="../content/img/behance.png" alt="behance"></figure>
+                    <figure><img src="../content/img/facebook.png" alt="facebook"></figure>
+                </a>
+                <a target="_blank" href="#">
+                    <figure><img src="../content/img/behance.png" alt="behance"></figure>
                 </a>
             </div>
         </div>
@@ -109,8 +145,41 @@
             </div>
         </div>
     </section>
+    <script>
+        var slide_wrp = ".side-menu-wrapper"; //Menu Wrapper
+        var open_button = ".menu-open"; //Menu Open Button
+        var close_button = ".menu-close"; //Menu Close Button
+        var overlay = ".menu-overlay"; //Overlay
 
+        $(slide_wrp).hide().css({ "right": -$(slide_wrp).outerWidth() + 'px' }).delay(50).queue(function () { $(slide_wrp).show() });
 
-    <script src="./content/js/index.js"></script>
+        $(open_button).click(function (e) {
+            e.preventDefault();
+            $(slide_wrp).css({ "right": "0px" });
+            setTimeout(function () {
+                $(slide_wrp).addClass('active');
+            }, 50);
+            $(overlay).css({ "opacity": "1", "width": "100%" });
+        });
+
+        $(close_button).click(function (e) {
+            e.preventDefault();
+            $(slide_wrp).css({ "right": -$(slide_wrp).outerWidth() + 'px' });
+            setTimeout(function () {
+                $(slide_wrp).removeClass('active');
+            }, 50);
+            $(overlay).css({ "opacity": "0", "width": "0" });
+        });
+
+        $(document).on('click', function (e) {
+            if (!e.target.closest(slide_wrp) && $(slide_wrp).hasClass("active")) {
+                $(slide_wrp).css({ "right": -$(slide_wrp).outerWidth() + 'px' }).removeClass('active');
+                $(overlay).css({ "opacity": "0", "width": "0" });
+            }
+        });
+    </script>
+
+    <script src="../content/js/index.js"></script>
+    <script src="../content/js/menu.js"></script>
 </body>
 </html>
