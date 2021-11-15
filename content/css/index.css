@@ -20,6 +20,12 @@
     gap: 50px;
 }
 
+.d-f-col-text{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
 .d-f-col2{
     display: flex;
     flex-direction: column;
