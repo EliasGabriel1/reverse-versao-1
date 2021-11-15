@@ -62,7 +62,7 @@
 .d-none span{
     position: absolute;
     left: 160px;
-    bottom: -500px;
+    bottom: -500px; 
     color: white;
     font-size: 50px;
 }
