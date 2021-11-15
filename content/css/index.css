@@ -37,9 +37,34 @@
     grid-template-columns: minmax(20%, 33%) minmax(20%, 33%) minmax(20%, 33%);
 }
 
+.d-flex{
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .content-team{
     display: flex;
     justify-content: space-between;
+}
+
+.d-none{
+    display: none;
+}
+
+.hover-img a:hover .d-block{
+    display: none;
+}
+
+.hover-img a:hover .d-none{
+    display: block;
+}
+
+.d-none span{
+    position: absolute;
+    left: 160px;
+    bottom: -500px;
+    color: white;
+    font-size: 50px;
 }
 
 @media screen and (max-width: 900px) {
@@ -48,5 +73,10 @@
     }
     .d-grid{
         grid-template-columns: 1fr;
+    }
+
+    .d-flex{
+        display: flex;
+        flex-direction: column;
     }
 }
