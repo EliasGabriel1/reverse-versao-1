@@ -93,6 +93,9 @@ h2{
     .container-maisprojetos .content-img{
         flex-direction: column;
     }
+    .imagem_container img{
+        width: 100%;
+    }
 }
 
 .imagem_container.imagem-9{
