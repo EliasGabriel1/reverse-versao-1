@@ -56,7 +56,7 @@ h2{
 }
 
 .texto-en{
-    margin: 64px 0;
+    margin: 64px 0 114px 0;
 }
 
 .texto_pt-br .texto p{ 
@@ -68,8 +68,10 @@ h2{
     font-weight: normal;
     margin-bottom: 18.7px;
 }
-
-.imagem-3,.imagem-5,.imagem-7{
+.imagem-3{
+    margin: 126px 0;
+}
+.imagem-5,.imagem-7{
     margin: 32px 0;
 }
 
@@ -93,8 +95,10 @@ h2{
     }
 }
 
-
-.imagem_container.imagem-2>figure{
+.imagem_container.imagem-9{
+    margin: 100px 0;
+}
+.imagem_container.imagem-9>figure, .imagem_container.imagem-2>figure{
     display:flex;
     justify-content: center;
     align-items: center;
