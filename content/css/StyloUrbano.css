@@ -69,7 +69,7 @@ h2{
     margin-bottom: 18.7px;
 }
 .imagem-3,
-.imagem-5,.imagem-7, .imagem-9{
+.imagem-5,.imagem-7{
     margin: 32px 0;
 }
 
@@ -96,6 +96,9 @@ h2{
     }
 }
 
+.imagem_container.imagem-9{
+    margin: 32px 0 100px 0;
+}
 .imagem_container.imagem-9>figure, .imagem_container.imagem-2>figure{
     display:flex;
     justify-content: center;
