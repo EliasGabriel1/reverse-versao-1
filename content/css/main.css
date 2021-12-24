@@ -37,7 +37,7 @@ header{
     display: flex;
     display: grid;
     grid-template-columns: 88.3% 8%;
-    padding: 30px 33px 0;
+    padding: 14px 33px;
     gap: 46px;
 }
 
@@ -182,4 +182,31 @@ footer>.footer>p>a{
 
 footer>.footer>p>a:hover{
     color: #3f8120;
+}
+
+
+
+/* ------------------------------------------------------------- SLIDE ------------------------------------------------------ */
+
+body .slick-dotted.slick-slider{
+    margin-bottom: 0;
+}
+
+body ul.slick-dots{
+    position: relative;
+    top: -40px;
+    height: 0;
+}
+
+button.slick-next.slick-arrow{
+    right: 25px;
+}
+
+button.slick-prev.slick-arrow{
+    left: 25px;
+    z-index: 1;
+}
+
+.lazy .slick-dots li button:before{
+    font-size: 20px;
 }

@@ -35,6 +35,7 @@
 .d-grid{
     display: grid;
     grid-template-columns: minmax(20%, 33%) minmax(20%, 33%) minmax(20%, 33%);
+    gap: 16px 20px;
 }
 
 .d-flex{
