@@ -37,7 +37,7 @@ header{
     display: flex;
     display: grid;
     grid-template-columns: 88.3% 8%;
-    padding: 14px 33px;
+    padding: 17.12px 33px 42.886px 33px;
     gap: 46px;
 }
 
@@ -195,7 +195,7 @@ body .slick-dotted.slick-slider{
 
 body ul.slick-dots{
     position: relative;
-    top: -40px;
+    top: -33px;
     height: 0;
 }
 
@@ -209,5 +209,10 @@ button.slick-prev.slick-arrow{
 }
 
 .lazy .slick-dots li button:before{
-    font-size: 20px;
+    font-size: 5px;
+}
+
+.slick-dots li {
+    width: 5px;
+    height: 5px;
 }
