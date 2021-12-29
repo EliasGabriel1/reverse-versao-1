@@ -216,3 +216,8 @@ button.slick-prev.slick-arrow{
     width: 5px;
     height: 5px;
 }
+
+
+/* ------------------------------------------------------ SOCIAIS FILTER ------------------------------------------------------ */
+
+.sociais > a> figure> img{filter: invert(0.4);}

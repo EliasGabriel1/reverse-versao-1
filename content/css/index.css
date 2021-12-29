@@ -81,6 +81,7 @@
 @media screen and (max-width: 900px) {
     .content-team{
         flex-direction:column;
+        gap: 30px;
     }
     .d-grid{
         grid-template-columns: 1fr;
