@@ -1,0 +1,92 @@
+body .container2{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+form{
+    display: block;
+}
+
+.container2.contet-contato{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+section.content-contato{
+    margin: 19.35251798561151vh 0px;
+}
+
+.content-form-group-input{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.content-contato-text-small{
+    margin-top: 45px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.content-contato-title h1 span{
+    color: #3B7B1D;
+}
+
+form input{
+    width: 373px;
+    height: 35px;
+    padding-left: 10px;
+}
+
+form textarea{
+    width: 373px;
+    height: 75px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+form button{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: transparent;
+    border: 1px solid #3B7B1D;
+    background-color: #3B7B1D;
+    color: #ffffff;
+    width: 75px;
+    height: 25px;
+    cursor: pointer;
+    margin-top: 18px;
+    border-radius: 4px;
+}
+
+form button svg path{
+    fill:#ffffff;
+}
+
+form button:hover{
+    color: #3B7B1D;
+    background-color: transparent;
+}
+
+form button:hover svg path{
+    fill:#3B7B1D;
+}
+
+footer{
+    padding: 1px 0;
+    background-color: #3B7B1D;
+}
+
+footer .footer{
+    background-color: #3B7B1D;
+}
+
+footer .footer p,footer .footer p a{
+    color: #ffffff;
+}
+
+footer .footer p a:hover{
+    color: #ffffff;
+}

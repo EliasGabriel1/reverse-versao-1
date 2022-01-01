@@ -24,6 +24,15 @@
   box-sizing: border-box;
 }
 
+input:focus-visible {
+ outline: none;
+}
+
+:focus-visible {
+   outline: none;
+}
+
+
 h1{
     font-size: 60px;
 }
