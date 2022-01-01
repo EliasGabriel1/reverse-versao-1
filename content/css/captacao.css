@@ -90,3 +90,13 @@ footer .footer p,footer .footer p a{
 footer .footer p a:hover{
     color: #ffffff;
 }
+
+@media screen and (max-width: 900px) {
+    .container2.contet-contato {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        margin: 0 10px;
+    }
+}
