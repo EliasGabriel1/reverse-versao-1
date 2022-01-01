@@ -93,6 +93,7 @@ footer .footer p a:hover{
 
 @media screen and (max-width: 900px) {
     .container2.contet-contato {
+        gap: 50px;
         display: flex;
         flex-direction: column;
         justify-content: center;
