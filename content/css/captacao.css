@@ -13,7 +13,7 @@ form{
 }
 
 section.content-contato{
-    margin: 19.35251798561151vh 0px;
+    margin: 16.690647482014388vh 0px;
 }
 
 .content-form-group-input{
@@ -29,49 +29,67 @@ section.content-contato{
     gap: 24px;
 }
 
+.content-contato-title h1{
+    font-size: 66.50px;
+}
+
 .content-contato-title h1 span{
     color: #3B7B1D;
 }
 
+.group-content-contato-text h3{
+    font-size: 37.24px;
+}
+
+.group-content-contato-text p {
+    font-size: 22.61px;
+}
+
 form input{
-    width: 373px;
-    height: 35px;
+    width: 448px;
+    height: 40px;
     padding-left: 10px;
+    border-radius: 2.5px;
+    border: 1px solid #3B7B1D;
+}
+
+form input::placeholder,form textarea::placeholder{
+    font-size: 14px;
+    color: #3B7B1D;
 }
 
 form textarea{
-    width: 373px;
-    height: 75px;
+    width: 448;
+    height: 92px;
     padding-left: 10px;
     padding-top: 10px;
+    border-radius: 2.5px;
+    border: 0.5px solid #3B7B1D;
 }
 
 form button{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: transparent;
-    border: 1px solid #3B7B1D;
-    background-color: #3B7B1D;
-    color: #ffffff;
-    width: 75px;
-    height: 25px;
     cursor: pointer;
+    background: transparent;
+    border: 0.5px solid #3B7B1D;
+    color: #3B7B1D;
+    width: 93px;
+    height: 30px;
+    font-size:12px;
     margin-top: 18px;
-    border-radius: 4px;
-}
-
-form button svg path{
-    fill:#ffffff;
+    border-radius: 2.5px;
+    letter-spacing: 0.8px;
 }
 
 form button:hover{
-    color: #3B7B1D;
-    background-color: transparent;
+    background-color: #3B7B1D;
+    color: #ffffff;
 }
 
 form button:hover svg path{
-    fill:#3B7B1D;
+    fill:#ffffff;
 }
 
 footer{
