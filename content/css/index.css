@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap');
-body section .container-small.d-f-col2,section#projetos>h2{
+body section .container-small.d-f-col2,section#projetos>h2,footer,.side-menu-wrapper.active ul li a{
     font-family: 'Poppins', sans-serif !important;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .container-small.d-f-col2>h4{
