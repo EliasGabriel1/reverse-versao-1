@@ -1,3 +1,13 @@
+body{
+    height: 100vh;
+}
+
+footer{
+    position: absolute;
+    width: 100vw;
+    bottom: 0;
+}
+
 body .container2{
     max-width: 1300px;
     margin: 0 auto;
@@ -117,5 +127,8 @@ footer .footer p a:hover{
         justify-content: center;
         align-items: start;
         margin: 0 10px;
+    }
+    form input{
+        width: 90vw;
     }
 }
