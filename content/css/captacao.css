@@ -65,8 +65,12 @@ form input::placeholder,form textarea::placeholder{
 }
 
 form textarea{
-    width: 448;
-    height: 92px;
+    width: 448px;
+    resize: none;
+    line-height: 19px;
+    overflow: auto;
+    max-width: 100%;
+    height: 96px;
     padding-left: 10px;
     padding-top: 10px;
     border-radius: 2.5px;
