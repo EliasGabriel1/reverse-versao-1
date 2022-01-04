@@ -1,7 +1,3 @@
-body{
-    height: 100vh;
-}
-
 footer{
     position: absolute;
     width: 100vw;
@@ -130,5 +126,11 @@ footer .footer p a:hover{
     }
     form input{
         width: 90vw;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    body{
+        height: 100vh;
     }
 }
