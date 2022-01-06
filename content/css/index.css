@@ -16,6 +16,10 @@ body section .container-small.d-f-col2,section#projetos>h2,footer,.side-menu-wra
     padding:  80px 0;
 }
 
+.text-center{
+    text-align: center;
+}
+
 .line{
     background-color: #3f8120;
     height: 10px;
@@ -81,7 +85,6 @@ body section .container-small.d-f-col2,section#projetos>h2,footer,.side-menu-wra
 .hover-img a:hover .d-none{
     display: block;
 }
-
 .d-none span{
     position: absolute;
     left: 160px;
