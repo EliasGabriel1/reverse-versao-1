@@ -46,7 +46,7 @@ header{
     display: flex;
     display: grid;
     grid-template-columns: 88.3% 8%;
-    padding: 17.12px 33px 42.886px 33px;
+    padding: 20px 33px;
     gap: 46px;
 }
 
