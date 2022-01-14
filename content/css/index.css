@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap');
 
+.background-projeto{
+    background-attachment: fixed;
+    background-image: url("../img/index/Imagem\ Tela\ Inicial.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+
 body section .container-small.d-f-col2,section#projetos>h2,footer,.side-menu-wrapper.active ul li a{
     font-family: 'Poppins', sans-serif !important;
     padding-left: 10px;
@@ -8,6 +15,7 @@ body section .container-small.d-f-col2,section#projetos>h2,footer,.side-menu-wra
 
 .container-small.d-f-col2>h4{
     font-size: 45px;
+    color: #3f8120;
 }
 
 .container-small{
@@ -36,9 +44,43 @@ body section .container-small.d-f-col2,section#projetos>h2,footer,.side-menu-wra
 }
 
 .oqfazemos{
+    font-family: 'Poppins', sans-serif !important;
     background-color: #f8f8f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+
+.group-content-oqfazemos{
+    display: flex;
+    gap: 70px;
+}
+
+.box-group-content-oqfazemos{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+}
+
+.box-group-content-oqfazemos .group{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.box-group-content-oqfazemos .group> h2{
+    font-weight: 600;
+    line-height: 30px;
+    min-height: 60px;
+}
+
+.box-group-content-oqfazemos .group> p{
+    font-size: 14px;
+    line-height: 15px;
+}
 .d-f-col{
     display: flex;
     flex-direction: column;
@@ -93,6 +135,10 @@ body section .container-small.d-f-col2,section#projetos>h2,footer,.side-menu-wra
     font-size: 50px;
 }
 
+@media screen and (min-width: 900px) {
+    .oqfazemos{
+        height: 500px;}
+}
 @media screen and (max-width: 900px) {
     .content-team{
         flex-direction:column;
@@ -106,4 +152,10 @@ body section .container-small.d-f-col2,section#projetos>h2,footer,.side-menu-wra
         display: flex;
         flex-direction: column;
     }
+    .group-content-oqfazemos{
+        flex-direction: column;
+    }
+    .oqfazemos{
+        padding: 65px 0;
+        }
 }
