@@ -1,161 +1,218 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap");
 
-.background-projeto{
-    background-attachment: fixed;
-    background-image: url("../img/index/Imagem\ Tela\ Inicial.jpg");
-    background-size: cover;
-    height: 100vh;
+.main-background-projeto {
+  background-attachment: fixed;
+  background-image: url("../img/index/Imagem\ Tela\ Inicial.jpg");
+  background-size: cover;
+  height: 100vh;
 }
 
-body section .container-small.d-f-col2,section#projetos>h2,footer,.side-menu-wrapper.active ul li a{
-    font-family: 'Poppins', sans-serif !important;
-    padding-left: 10px;
-    padding-right: 10px;
+.fs-h3 {
+  font-size: 18.72px;
 }
 
-.container-small.d-f-col2>h4{
-    font-size: 45px;
-    color: #3f8120;
+body section .container-small.d-f-col2,
+section#projetos > h2,
+footer,
+.side-menu-wrapper.active ul li a {
+  font-family: "Poppins", sans-serif !important;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
-.container-small{
-    max-width: 810px;
-    margin: 0 auto;
-    padding:  80px 0;
+header.header-desk ul > li > a {
+  color: white;
 }
 
-.text-center{
-    text-align: center;
+header.header-desk .sociais > a > figure > img {
+  filter: invert(1);
 }
 
-.line{
-    background-color: #3f8120;
-    height: 10px;
+.container-small.d-f-col2 > h4 {
+  font-size: 45px;
+  color: #3f8120;
 }
 
-.container{
-    max-width: 1300px;
-    margin: 0 auto;
+.container-small {
+  max-width: 810px;
+  margin: 0 auto;
+  padding: 80px 0;
 }
 
-.container2{
-    max-width: 1300px;
-    margin: 0 auto;
+.text-center {
+  text-align: center;
 }
 
-.oqfazemos{
-    font-family: 'Poppins', sans-serif !important;
-    background-color: #f8f8f8;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.line {
+  background-color: #3f8120;
+  height: 10px;
 }
 
-
-.group-content-oqfazemos{
-    display: flex;
-    gap: 70px;
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
 }
 
-.box-group-content-oqfazemos{
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-    align-items: center;
+.container2 {
+  max-width: 1300px;
+  margin: 0 auto;
 }
 
-.box-group-content-oqfazemos .group{
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
+.oqfazemos {
+  font-family: "Poppins", sans-serif !important;
+  background-color: #f8f8f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.box-group-content-oqfazemos .group> h2{
-    font-weight: 600;
-    line-height: 30px;
-    min-height: 60px;
+.group-content-oqfazemos {
+  display: flex;
+  gap: 70px;
 }
 
-.box-group-content-oqfazemos .group> p{
-    font-size: 14px;
-    line-height: 15px;
-}
-.d-f-col{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 50px;
+.box-group-content-oqfazemos {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
 }
 
-.d-f-col-text{
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
+.box-group-content-oqfazemos .group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
 
-.d-f-col2{
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
+.box-group-content-oqfazemos .group > h2 {
+  font-weight: 600;
+  line-height: 30px;
+  min-height: 60px;
 }
 
-.d-grid{
-    display: grid;
-    grid-template-columns: minmax(20%, 33%) minmax(20%, 33%) minmax(20%, 33%);
-    gap: 16px 20px;
+.box-group-content-oqfazemos .group > p {
+  font-size: 14px;
+  line-height: 15px;
+}
+.d-f-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
 }
 
-.d-flex{
-    display: flex;
-    justify-content: space-evenly;
+.d-f-col-text {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
 }
 
-.content-team{
-    display: flex;
-    justify-content: space-between;
+.d-f-col2 {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
 }
 
-.d-none{
-    display: none;
+.d-grid {
+  display: grid;
+  grid-template-columns: minmax(20%, 33%) minmax(20%, 33%) minmax(20%, 33%);
+  gap: 16px 20px;
 }
 
-.hover-img a:hover .d-block{
-    display: none;
+.d-flex {
+  display: flex;
+  justify-content: space-evenly;
 }
 
-.hover-img a:hover .d-none{
-    display: block;
+.content-team {
+  display: flex;
+  justify-content: space-between;
 }
-.d-none span{
-    position: absolute;
-    left: 160px;
-    bottom: -500px; 
-    color: white;
-    font-size: 50px;
+
+.d-none {
+  display: none;
+}
+
+.hover-img a:hover .d-block {
+  display: none;
+}
+
+.hover-img a:hover .d-none {
+  display: block;
+}
+
+.d-none span {
+  position: absolute;
+  left: 160px;
+  bottom: -500px;
+  color: white;
+  font-size: 50px;
+}
+
+.background-projeto {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  height: 100%;
+}
+
+.content-bc-projeto {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  flex-direction: column;
+}
+
+.content-bc-projeto h2 {
+  color: white;
+  text-align: end;
+  font-family: "Poppins", sans-serif !important;
+  font-size: 47px;
+  line-height: 59px;
+}
+
+.content-bc-projeto a {
+  text-align: end;
+  align-self: end;
+  margin-top: 54px;
 }
 
 @media screen and (min-width: 900px) {
-    .oqfazemos{
-        height: 500px;}
+  .oqfazemos {
+    height: 500px;
+  }
+
+  .content-bc-projeto h2 {
+    width: 590px;
+  }
+
+  .content-bc-projeto {
+    margin-right: 103px;
+    margin-bottom: 90px;
+  }
 }
 @media screen and (max-width: 900px) {
-    .content-team{
-        flex-direction:column;
-        gap: 30px;
-    }
-    .d-grid{
-        grid-template-columns: 1fr;
-    }
+  .content-bc-projeto {
+    margin-right: 10px;
+  }
+  .content-team {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .d-grid {
+    grid-template-columns: 1fr;
+  }
 
-    .d-flex{
-        display: flex;
-        flex-direction: column;
-    }
-    .group-content-oqfazemos{
-        flex-direction: column;
-    }
-    .oqfazemos{
-        padding: 65px 0;
-        }
+  .d-flex {
+    display: flex;
+    flex-direction: column;
+  }
+  .oqfazemos {
+    padding: 65px 0;
+  }
+  .group-content-oqfazemos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 }
