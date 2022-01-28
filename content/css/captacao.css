@@ -22,6 +22,11 @@ section.content-contato{
     gap: 18px;
 }
 
+.content-form-group-input >input,
+.content-form-group-input >textarea{
+    font-family: Helvetica, sans-serif;
+}
+
 .content-contato-text-small{
     margin-top: 45px;
     display: flex;
