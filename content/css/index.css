@@ -7,6 +7,18 @@
   height: 100vh;
 }
 
+.content>ul>li>a:hover{
+  color:#f1f1f1 !important;
+}
+
+.df-align-end{
+  display: flex;
+  height: 98vh;
+  align-items: center;
+  justify-content: end;
+  padding:20px 33px;
+}
+
 .fs-h3 {
   font-size: 18.72px;
 }
@@ -151,10 +163,7 @@ header.header-desk .sociais > a > figure > img {
 }
 
 .background-projeto {
-  display: flex;
-  justify-content: end;
-  align-items: center;
-  height: 100%;
+  height: calc(61% - 83px);
 }
 
 .content-bc-projeto {
@@ -185,11 +194,6 @@ header.header-desk .sociais > a > figure > img {
 
   .content-bc-projeto h2 {
     width: 590px;
-  }
-
-  .content-bc-projeto {
-    margin-right: 103px;
-    margin-bottom: 90px;
   }
 }
 @media screen and (max-width: 900px) {
